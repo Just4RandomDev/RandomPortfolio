@@ -1,0 +1,412 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JustARandomDev - Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" data-elevate>
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Home">
+        <img class="brand-mark" src="./images/logo.png" alt="JustARandomDev logo" width="34" height="34" />
+        <span class="brand-name">JustARandomDev</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
+          <span class="nav-toggle-icon" aria-hidden="true"></span>
+        </button>
+
+        <div id="nav-menu" class="nav-menu" data-open="false">
+          <a class="nav-link" href="#about">About</a>
+          <a class="nav-link" href="#skills">Skills</a>
+          <a class="nav-link" href="#projects">Projects</a>
+          <a class="nav-link" href="#experience">Experience</a>
+
+          <div class="nav-cta">
+            <a class="btn btn-primary" href="#contact">Contact</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="top" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+
+
+          <p class="eyebrow">Hi, I’m <span class="accent">JustARandomDev</span></p>
+          <h1 class="hero-title">
+            I build <span class="gradient-text">fast, modern</span> web experiences.
+          </h1>
+          <p class="hero-subtitle">
+            Frontend-focused developer crafting clean UI, accessible interactions, and production-ready components.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">View projects</a>
+            <a class="btn btn-secondary" href="#contact">Get in touch</a>
+          </div>
+
+          <div class="hero-meta" role="list" aria-label="Highlights">
+            <div class="meta-card" role="listitem">
+              <div class="meta-title">Focus</div>
+              <div class="meta-value">UI Engineering</div>
+            </div>
+            <div class="meta-card" role="listitem">
+              <div class="meta-title">Stack</div>
+              <div class="meta-value">HTML • CSS • JS</div>
+            </div>
+            <div class="meta-card" role="listitem">
+              <div class="meta-title">Location</div>
+              <div class="meta-value">Spain</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <div class="profile-card">
+            <div class="profile-glow"></div>
+            <div class="avatar">
+              <img class="avatar-image" src="./images/logo.png" alt="JustARandomDev avatar" width="96" height="96" />
+              <span class="sr-only">JustARandomDev avatar</span>
+            </div>
+            <div class="profile-body">
+              <h2 class="profile-title">Available for work</h2>
+              <p class="profile-text">Freelance & collaborations — building landing pages, dashboards, portfolios, eshop, etc...</p>
+
+              <div class="profile-links">
+                <a class="chip" href="#contact" aria-label="Email">
+                  <span class="chip-icon" aria-hidden="true">✉</span>
+                  Email
+                </a>
+                <a class="chip" href="#projects" aria-label="GitHub">
+                  <span class="chip-icon" aria-hidden="true">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                      <path fill="currentColor" d="M12 2C6.477 2 2 6.58 2 12.203c0 4.502 2.865 8.323 6.839 9.676.5.095.682-.222.682-.492 0-.243-.009-.888-.014-1.744-2.782.614-3.369-1.37-3.369-1.37-.454-1.168-1.11-1.48-1.11-1.48-.908-.636.069-.624.069-.624 1.004.072 1.532 1.06 1.532 1.06.892 1.566 2.341 1.114 2.91.852.091-.666.349-1.114.636-1.37-2.22-.261-4.556-1.136-4.556-5.062 0-1.118.39-2.032 1.03-2.749-.103-.262-.447-1.323.098-2.758 0 0 .84-.273 2.75 1.045A9.26 9.26 0 0 1 12 6.844c.85.004 1.705.116 2.504.341 1.909-1.318 2.748-1.045 2.748-1.045.546 1.435.202 2.496.099 2.758.64.717 1.028 1.63 1.028 2.749 0 3.935-2.341 4.797-4.566 5.054.36.319.679.949.679 1.916 0 1.383-.012 2.499-.012 2.842 0 .272.18.592.688.492C19.137 20.52 22 16.7 22 12.203 22 6.58 17.523 2 12 2Z"/>
+                    </svg>
+                  </span>
+                  GitHub
+                </a>
+                <a class="chip" href="#projects" aria-label="Instagram">
+                  <span class="chip-icon" aria-hidden="true">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                      <path fill="currentColor" d="M7 2C4.239 2 2 4.239 2 7v10c0 2.761 2.239 5 5 5h10c2.761 0 5-2.239 5-5V7c0-2.761-2.239-5-5-5H7Zm10 2c1.654 0 3 1.346 3 3v10c0 1.654-1.346 3-3 3H7c-1.654 0-3-1.346-3-3V7c0-1.654 1.346-3 3-3h10Zm-5 4a6 6 0 1 0 0 12 6 6 0 0 0 0-12Zm0 2a4 4 0 1 1 0 8 4 4 0 0 1 0-8Zm6.5-2.75a1.25 1.25 0 1 1-2.5 0 1.25 1.25 0 0 1 2.5 0Z"/>
+                    </svg>
+                  </span>
+                  Instagram
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-bottom">
+        <div class="container">
+          <div class="section-divider">
+            <span class="divider-line"></span>
+            <span class="divider-text">Scroll to explore</span>
+            <span class="divider-line"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section reveal">
+
+      <div class="container section-grid">
+        <div class="section-heading">
+          <h2 class="h2">About</h2>
+          <p class="lead">A quick story and what I do best.</p>
+        </div>
+
+        <div class="card">
+          <h3 class="h3"> Design-minded development</h3>
+          <p class="p">
+            I help teams turn ideas into user-friendly interfaces—combining clean layouts, smooth interactions,
+            and thoughtful accessibility.
+          </p>
+          <div class="bullets">
+            <div class="bullet">✅ Component-driven UI</div>
+            <div class="bullet">✅ Responsive and mobile-first</div>
+            <div class="bullet">✅ Performance-minded implementation</div>
+            <div class="bullet">✅ Maintainable code structure</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section section-alt reveal">
+
+      <div class="container section-grid">
+        <div class="section-heading">
+          <h2 class="h2">Skills</h2>
+          <p class="lead">A practical stack for modern web apps.</p>
+        </div>
+
+        <div class="grid-3">
+          <div class="card skill-card">
+            <h3 class="h3">Frontend</h3>
+            <div class="pill-row">
+              <span class="pill">HTML</span>
+              <span class="pill">CSS</span>
+              <span class="pill">JavaScript</span>
+              <span class="pill">Responsive Design</span>
+            </div>
+          </div>
+          <div class="card skill-card">
+            <h3 class="h3">Frameworks</h3>
+            <div class="pill-row">
+              <span class="pill">React</span>
+              <span class="pill">Next.js</span>
+              <span class="pill">TypeScript</span>
+              <span class="pill">UI Libraries</span>
+            </div>
+          </div>
+          <div class="card skill-card">
+            <h3 class="h3">Quality</h3>
+            <div class="pill-row">
+              <span class="pill">Accessibility</span>
+              <span class="pill">Performance</span>
+              <span class="pill">SEO</span>
+              <span class="pill">Testing</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section reveal">
+
+      <div class="container">
+        <div class="section-top">
+          <div class="section-heading">
+            <h2 class="h2">Projects</h2>
+            <p class="lead">Selected work. Clean UX, clear architecture.</p>
+          </div>
+          <div class="section-actions">
+            <button class="btn btn-ghost" type="button" id="filterAll">All</button>
+            <button class="btn btn-ghost" type="button" data-filter="web">Web</button>
+            <button class="btn btn-ghost" type="button" data-filter="ui">UI</button>
+            <button class="btn btn-ghost" type="button" data-filter="portfolio">Portfolio</button>
+          </div>
+        </div>
+
+        <div class="grid-3 projects" id="projectsGrid">
+          <article class="project card" data-tags="web ui">
+            <div class="project-media" aria-hidden="true">
+              <div class="media-gradient g1"></div>
+              <div class="media-dots"></div>
+            </div>
+            <div class="project-body">
+              <h3 class="h3">Dashboard UI</h3>
+              <p class="p">A responsive admin dashboard with cards, charts placeholders, and accessible navigation.</p>
+              <div class="project-tags">
+                <span class="tag">Web</span>
+                <span class="tag">UI</span>
+              </div>
+              <div class="project-links">
+                <a class="link" href="#contact">Live demo</a>
+                <a class="link" href="#projects">Details</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project card" data-tags="portfolio ui">
+            <div class="project-media" aria-hidden="true">
+              <div class="media-gradient g2"></div>
+              <div class="media-dots"></div>
+            </div>
+            <div class="project-body">
+              <h3 class="h3">Portfolio Template</h3>
+              <p class="p">A modern portfolio layout with smooth sections, hero highlights, and project cards.</p>
+              <div class="project-tags">
+                <span class="tag">Portfolio</span>
+                <span class="tag">UI</span>
+              </div>
+              <div class="project-links">
+                <a class="link" href="#contact">Live demo</a>
+                <a class="link" href="#projects">Details</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project card" data-tags="web">
+            <div class="project-media" aria-hidden="true">
+              <div class="media-gradient g3"></div>
+              <div class="media-dots"></div>
+            </div>
+            <div class="project-body">
+              <h3 class="h3">Landing Page</h3>
+              <p class="p">Conversion-focused landing page with feature blocks, testimonials placeholders, and CTA.</p>
+              <div class="project-tags">
+                <span class="tag">Web</span>
+              </div>
+              <div class="project-links">
+                <a class="link" href="#contact">Live demo</a>
+                <a class="link" href="#projects">Details</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project card" data-tags="ui">
+            <div class="project-media" aria-hidden="true">
+              <div class="media-gradient g4"></div>
+              <div class="media-dots"></div>
+            </div>
+            <div class="project-body">
+              <h3 class="h3">UI Kit</h3>
+              <p class="p">Reusable buttons, cards, form fields, and layout primitives with consistent spacing.</p>
+              <div class="project-tags">
+                <span class="tag">UI</span>
+              </div>
+              <div class="project-links">
+                <a class="link" href="#contact">Live demo</a>
+                <a class="link" href="#projects">Details</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project card" data-tags="web portfolio">
+            <div class="project-media" aria-hidden="true">
+              <div class="media-gradient g5"></div>
+              <div class="media-dots"></div>
+            </div>
+            <div class="project-body">
+              <h3 class="h3">Case Study</h3>
+              <p class="p">A case-study page template with clear problem/solution structure and responsive media.</p>
+              <div class="project-tags">
+                <span class="tag">Portfolio</span>
+                <span class="tag">Web</span>
+              </div>
+              <div class="project-links">
+                <a class="link" href="#contact">Live demo</a>
+                <a class="link" href="#projects">Details</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project card" data-tags="portfolio">
+            <div class="project-media" aria-hidden="true">
+              <div class="media-gradient g6"></div>
+              <div class="media-dots"></div>
+            </div>
+            <div class="project-body">
+              <h3 class="h3">Creative Resume</h3>
+              <p class="p">A minimal resume site with timeline, skills, and contact CTA—built for readability.</p>
+              <div class="project-tags">
+                <span class="tag">Portfolio</span>
+              </div>
+              <div class="project-links">
+                <a class="link" href="#contact">Live demo</a>
+                <a class="link" href="#projects">Details</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section section-alt reveal">
+
+      <div class="container">
+        <div class="section-heading">
+          <h2 class="h2">Experience</h2>
+          <p class="lead">Timeline-style highlights.</p>
+        </div>
+
+        <div class="timeline" role="list">
+          <div class="timeline-item" role="listitem">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <h3 class="h3">Frontend Developer — Studio Team</h3>
+              <p class="muted">2023 — Present</p>
+              <p class="p">Built responsive components, improved UI performance, and collaborated with design for consistent UX.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item" role="listitem">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <h3 class="h3">Web Developer — Freelance</h3>
+              <p class="muted">2021 — 2023</p>
+              <p class="p">Delivered landing pages and portfolios, integrated forms, and refined layouts based on analytics.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item" role="listitem">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <h3 class="h3">UI/UX Learner & Builder</h3>
+              <p class="muted">Always</p>
+              <p class="p">Practicing accessibility, typography, and interaction design through real projects and UI kits.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section reveal">
+
+      <div class="container section-grid contact-grid">
+        <div class="section-heading">
+          <h2 class="h2">Contact</h2>
+          <p class="lead">Send a message. I’ll reply as soon as possible.</p>
+          <div class="contact-side">
+            <div class="contact-card">
+              <div class="contact-label">Email</div>
+              <div class="contact-value"><a class="link" href="mailto:willythebreacher@gmail.com">willythebreacher@gmail.com</a></div>
+            </div>
+            <div class="contact-card">
+              <div class="contact-label">Social</div>
+              <div class="contact-value">
+                <a class="link" href="https://github.com/Just4RandomDev">GitHub</a> · <a class="link" href="https://www.instagram.com/just.a.random.dev/">Instagram</a>
+              </div>
+            </div>
+            <div class="contact-card">
+              <div class="contact-label">Location</div>
+              <div class="contact-value">Spain</div>
+            </div>
+          </div>
+        </div>
+
+          <div class="form-actions">
+            <button class="btn btn-primary" type="submit">Send message</button>
+            <p class="form-note" id="formNote" aria-live="polite"></p>
+          </div>
+
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img class="brand-mark" src="./images/logo.png" alt="JustARandomDev logo" width="34" height="34" />
+        <span>© <span id="year"></span> JustARandomDev</span>
+      </div>
+      <div class="footer-links">
+        <a class="link" href="#top">Back to top</a>
+        <span class="dot" aria-hidden="true">·</span>
+        <a class="link" href="#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./script.js" defer></script>
+  <script src="./animation.js" defer></script>
+</body>
+</html>
+
+
